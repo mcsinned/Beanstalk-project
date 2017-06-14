@@ -7,7 +7,9 @@
 	<version>1.0.0</version>
 	<name>archetype-web-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
+	<properties>
+		<maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
